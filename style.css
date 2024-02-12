@@ -1,24 +1,23 @@
-body{
+body {
     padding: 0;
     margin: 0;
     background-color: #C9D7DD;
 }
-.container{
-    width: 85%;
-    height: 650px;
+
+.container {
+    width: 75%;
+    height: 850px;
     box-sizing: border-box;
-    /* background-color: aquamarine; */
-    margin:30px auto ;
-    background-image: url("three.jpg");
+    margin: 30px auto;
+    background-image: url("bg.jpg");
     background-repeat: no-repeat;
-    background-size: 1300px 650px;
+    background-size: 1300px 850px;
 }
-.inside{
-    /* margin-top: 30px; */
-}
-h2{
+
+h2 {
     display: inline;
 }
+
 ul {
     height: 80px;
     list-style-type: none;
@@ -26,19 +25,20 @@ ul {
     padding: 0;
     overflow: hidden;
 }
-  
+
 .nav-h2 {
     float: left;
     padding-left: 20px;
 }
+
 li {
-float: right;
-margin: 30px 0;
+    float: right;
+    margin: 30px 0;
 }
 
 li a {
     display: inline;
-    color: grey;
+    color: #fff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -49,17 +49,31 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-background-color: #ffffffe1;
+    background-color: #342525e1;
 }
 
-.div-two{
+.div-two {
     width: 200px;
     height: 200px;
     margin: 40px 25px;
     padding-left: 45px;
 }
-.div-h2{
+
+.div-h2 {
     font-size: 43px;
     font-weight: normal;
     color: #000;
+}
+
+.container2 {
+    display: flex; /* Change 'position' to 'display' */
+    flex-wrap: nowrap; /* Prevent wrapping to next line */  
+}
+
+.info {
+    flex: 1; /* Allow flex items to grow and shrink equally */
+    padding: 3px; /* Add padding for spacing */
+    border: 1px ;
+    /* background-color: rgba(255, 255, 255, 0.4); */
+    margin-top: 12em;
 }
