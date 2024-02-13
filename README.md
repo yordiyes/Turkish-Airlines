@@ -1,2 +1,3 @@
 # Simple Airline site
-## Developed using html and css
+## Developed using simple html and css
+### This is my practice project
